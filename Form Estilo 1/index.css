@@ -1,0 +1,56 @@
+body{
+	font-family: Blippo, fantasy;
+	background-image: url(wallpaper.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	color: #332d00;
+	text-decoration: bold;
+}
+
+input{
+	background-color: #332d00;
+	color: #FBDBA8;
+	border: 5px solid #332d00;
+}
+
+input:hover{
+	background-color: #FBDBA8;
+	color: #332d00;
+	border: 5px solid #FBDBA8;
+}
+
+select{
+	background-color: #332d00;
+	color: #FBDBA8;
+	border: 5px solid #332d00;
+}
+
+select:hover{
+	background-color: #FBDBA8;
+	color: #332d00;
+	border: 5px solid #FBDBA8;
+}
+
+fieldset{
+	color: #332d00;
+	border: 5px solid #332d00;
+}
+
+/*
+.button:hover{
+	background-color: #FBDBA8;
+	color: #332d00;
+	border: 5px solid #FBDBA8;
+}
+*/
+h1{
+	text-align: center;
+}
+
+form fieldset{
+	width: 250px;
+}
+
+#idade{
+	width: 50px;
+}
