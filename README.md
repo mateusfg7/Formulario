@@ -2,6 +2,7 @@
 formulário de resgistro de pessoas
 
 Prévia
+
 Form 1:
 ![Form estilo 1](https://github.com/mateusfg7/Formulario/blob/master/previas/form-estilo-1.PNG)
 Form 2
