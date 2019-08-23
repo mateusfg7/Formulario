@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+/* color1: #10bbf1; */
+
+body{
+	background-color: #1a1a1a;
+	font-family: Arial;
+	color: rgb(211, 211, 211);
+	text-align: center;
+}
+
+legend{}
+
+form{
+	max-width: 400px;
+	margin: auto;
+	padding: 10px;
+	background: #2e2e2e;
+	text-align: left;
+}
+
+#corpo{
+	max-width: 600px;
+	margin: auto;
+	padding: 10px;
+	background: #2e2e2e;
+}
+
+
+input, select{
+	border: none;
+	padding: 4px;
+	border-radius: 2px;
+	background: #1a1a1a;
+	color: #999999;
+}
+
+fieldset{
+	border: solid rgba(211, 211, 211, .03);
+}
+
+#sexo{}
+
+#buttons{
+	text-align: center;
+}
+.button{
+	margin: 7px 15px 7px 0px;
+	padding: 10px;
+	transition: .2s;
+	border-radius: 5px;
+	
+}
+
+.button:hover {
+	background: #252525;
+	cursor: pointer;
+}

@@ -1,0 +1,30 @@
+body{
+	background-color: #1a1a1a;
+	font-family: Arial;
+	color: rgb(211, 211, 211);
+	text-align: center;
+}
+
+div#corpo{
+	width: auto;
+	margin: 0px 50px 0px 50px;
+}
+
+a{
+	text-decoration: none;
+	color: rgb(211, 211, 211);
+}
+
+button{
+	margin: 7px 15px 7px 0px;
+	padding: 10px;
+	transition: .2s;
+	border-radius: 5px;
+	background: #2e2e2e;
+	border: none;
+	color: rgb(211, 211, 211);
+}
+button:hover{
+	background: #252525;
+	cursor: pointer;
+}
