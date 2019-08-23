@@ -19,21 +19,23 @@
 
 
 		//monta os dados
-		$dados = "
-			<fieldset>
-			<legend>$nome - <script>document.write(Date())</script></legend>
-			<p>Idade: $idade</p>
-			<p>Data de Nascimento: $nascimento</p>
-			<p>Sexo: $sexo</p>
-			<p>Telefone: $telefone</p>
-			<p>Email: $email</p>
-			<p>Estado: $estado</p>
-			</fieldset>
-		";
+		$dados = array(
+			"nome"=>"$nome",
+			"Idade"=>"$idade",
+			"Data de Nascimento"=>"$nascimento",
+			"Sexo"=>"$sexo",
+			"Telefone"=>"$telefone",
+			"Email"=>"$email",
+			"Estado"=>"$estado"
+		);
+		echo $dados;
+		echo "<h1>codificada:</h1>";
+		$dadosJson = json_encode($dados);
+		echo $dadosJson;
 		//abre o arquivo dados.php
-		$f = fopen("dados-user.php", "a");
+		$f = fopen("dados-user.json", "a");
 		//salvas os dados do formulário no arquivo dados.html
-    	fwrite($f, "$dados");
+    	fwrite($f, $dadosJson);
     	//fecha o arquivo dados.php
     	fclose($f);
     	//exibe o texto na tela
@@ -42,7 +44,7 @@
 
 	
 	<!-- BOTÃO VISUALISAR/VOLTAR -->
-	<p><a href="dados-user.php"><span class="back" id="vis"><button>VISUALISAR</button></span></a><a href="index.html"><span class="back" id="vol"><button>VOLTAR</button></span></a></p>
+	<p><button><a href="dados-user.json">VISUALISAR</a></button> <button><a href="index.html">VOLTAR</a></button></p>
 </div>
 
 
