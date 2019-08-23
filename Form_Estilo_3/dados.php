@@ -37,7 +37,7 @@
     	//fecha o arquivo dados.php
     	fclose($f);
     	//exibe o texto na tela
-		echo "<h1 class="colors">DADOS SALVOS COM SUCESSO</h1>";
+		echo "<h1 class='colors'>DADOS SALVOS COM SUCESSO</h1>";
 	?>
 	
 	<!-- BOTÃO VISUALISAR/VOLTAR -->
